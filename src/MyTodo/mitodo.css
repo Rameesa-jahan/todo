@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(243, 240, 233);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main-div{
+    background-color: rgb(255, 255, 255);
+   
+}
+.todo-input{
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 1em;
+    border: 1px solid #ccc;
+}
+input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.add-btn{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(17, 116, 116);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-3>button{
+    width: 25%;
+    background-color: rgb(17, 116, 116);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-3{
+    display: flex;
+    justify-content:space-evenly;
+}
+.btn>button{
+    width: 35%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lists{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:70%;
+    margin: auto;
+}
+h4{
+    margin-left: 20px;
+}
+.lists>button{
+    display: flex;
+    justify-content: flex-end;
+}
+ .done{
+    color: green;
+    padding: 10px;
+    height:40px;
+    background-color: white;
+    border: none;
+ }
+ .task-name{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.26);
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+     padding-top: 8px;
+ }
+
+ .delete {  
+    color: red;
+    font-size: larger;
+    padding: 10px;
+    height:40px;
+    background-color: white;
+    border: none;
+ }
+ .edit{
+    color: yellow;
+    padding: 10px;
+    height:40px;
+    background-color: white;
+    border: none;
+ }
+ .task-before{
+   width: 50%;
+   display: flex;
+   justify-content: start;
+   padding-left: 20px;
+    padding-top: 8px;
+ }
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.todo-list{
+    width:80%;
+    margin:auto;
+}
+.table-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+}
+
+tbody{
+    width: 100%;
+}
